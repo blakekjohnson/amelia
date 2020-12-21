@@ -3,20 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Amelia</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel='stylesheet' href='index.css'>
+    <script src='renderer.js' defer></script>
 </head>
 
-<body style="background: white;">
-    <h1>Hello World!</h1>
-    <p>
-        We are using node
-        <script>document.write(process.versions.node)</script>,
-        Chrome
-        <script>document.write(process.versions.chrome)</script>,
-        and Electron
-        <script>document.write(process.versions.electron)</script>.
-    </p>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img id="current-img" />
+        </div>
+        <button id="previous">⬅️</button>
+        <button id="next">➡️</button>
+    </div>
 </body>
 
 </html>
