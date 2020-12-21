@@ -1,0 +1,13 @@
+{
+  "name": "amelia",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Blake Johnson <blake.k.johnson.4@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^11.1.0"
+  }
+}
