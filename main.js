@@ -35,7 +35,7 @@ app.on('activate', () => {
     }
 });
 
-const fileRegex = /^[^.]*\.(gif|png|jpe?g)$/;
+const fileRegex = /^[^.]*\.(gif|png|jpe?g|JPE?G)$/;
 
 const filterFiles = file => fileRegex.test(file);
 const addPath = file => join(process.env.MOUNT_POINT, file);
