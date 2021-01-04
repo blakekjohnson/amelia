@@ -19,6 +19,11 @@ button {
 	position: absolute;
 }
 
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
 button#previous {
 	top: 0px;
 	left: 0px;

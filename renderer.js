@@ -12,6 +12,7 @@ ipcRenderer.on('files', (event, incomingFiles) => {
 		files.push(file);
 	});
 	updateImage();
+	setInterval(nextImage, 5000);
 });
 
 const updateImage = () => {
