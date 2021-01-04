@@ -10,11 +10,12 @@ require('dotenv').config();
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 480,
-        height: 800,
+        width: 800,
+        height: 480,
         webPreferences: {
             nodeIntegration: true,
         },
+        fullscreen: true,
     });
 
     win.loadFile('index.html');
